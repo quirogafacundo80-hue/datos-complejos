@@ -113,3 +113,9 @@ if evento:
     print("Evento:", evento)
 else:
     print("No hay eventos en ese horario.")
+# ejercicio 10
+original = {"Argentina": "Buenos Aires", "Chile": "Santiago", "Brasil": "Brasilia"}
+
+invertido = {capital: pais for pais, capital in original.items()}
+
+print("Diccionario invertido:", invertido)
